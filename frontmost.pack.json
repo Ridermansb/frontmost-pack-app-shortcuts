@@ -18,7 +18,7 @@
       },
       "url": {
         "from": "file",
-        "path": "apps/Chrome.json"
+        "path": "apps/com.google.Chrome.json"
       }
     },
     {
@@ -31,7 +31,7 @@
       },
       "url": {
         "from": "file",
-        "path": "apps/Cursor.json"
+        "path": "apps/com.todesktop.230313mzl4w4u92.json"
       }
     }
   ],
@@ -39,7 +39,7 @@
   "globals": [
     {
       "kind": "script",
-      "name": "Resolve shortcuts file",
+      "name": "List shortcut files",
       "script": {
         "path": "scripts/resolve-shortcuts.sh"
       }
@@ -51,8 +51,7 @@
     "naming": {
       "strategy": "app-id",
       "extension": ".json",
-      "fallback": "apps/_default.json",
-      "index": "apps/index.json"
+      "fallback": "apps/_default.json"
     }
   },
 

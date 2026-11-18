@@ -3,7 +3,8 @@
   "title": "Example shortcuts tip sheet",
   "source": "https://example.com/shortcuts",
   "notes": [
-    "Copy this file to apps/YourApp.json and register it in index.json.",
+    "Copy this file to apps/<appId>.json (filename = bundle id or app name).",
+    "Register a matching reactions[] entry in frontmost.pack.json.",
     "Use mac / win / linux keys; omit a platform if it does not apply."
   ],
   "sections": [

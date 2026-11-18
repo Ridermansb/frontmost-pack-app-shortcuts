@@ -9,7 +9,7 @@ This repository is a **GitHub Template** — use it to start your own pack, then
 ## Quick start
 
 1. Click **Use this template** on GitHub (or clone this repo).
-2. Edit / add JSON under `apps/`.
+2. Edit / add JSON under `apps/` — filename without `.json` is the app id.
 3. In Frontmost Reactor: **Settings → Packs → Add folder…** and select this folder.
 4. Focus Chrome or Cursor — the **Shortcuts** tab should show the matching sheet.
 
@@ -21,20 +21,17 @@ After changing `frontmost.pack.json` or adding apps, **Reinstall** the pack (Set
 frontmost-pack-app-shortcuts/
 ├── frontmost.pack.json     # manifesto (required)
 ├── apps/
-│   ├── index.json          # optional alias map (for scripts / docs)
-│   ├── Chrome.json         # Google Chrome (DevTools tips)
-│   ├── Cursor.json         # Cursor tips
-│   ├── _default.json       # fallback example
-│   └── _example.json       # copy-me shape for a new app
-├── ui/
-│   └── viewer.html         # optional HTML experiment (not used by manifesto)
+│   ├── com.google.Chrome.json                 # Google Chrome (DevTools tips)
+│   ├── com.todesktop.230313mzl4w4u92.json     # Cursor tips
+│   ├── _default.json                          # fallback example
+│   └── _example.json                          # copy-me shape for a new app
 └── scripts/
-    └── resolve-shortcuts.sh  # optional global: prints resolved file + JSON
+    └── resolve-shortcuts.sh                   # optional global: lists apps/*.json
 ```
 
 ## Add another app
 
-1. Copy `apps/_example.json` → `apps/MyApp.json` and fill in shortcuts.
+1. Copy `apps/_example.json` → `apps/<appId>.json` (e.g. `apps/com.apple.Safari.json`) and fill in shortcuts.
 2. Add a `reactions[]` entry in `frontmost.pack.json`:
 
 ```json
@@ -48,15 +45,14 @@ frontmost-pack-app-shortcuts/
   },
   "url": {
     "from": "file",
-    "path": "apps/MyApp.json"
+    "path": "apps/com.example.MyApp.json"
   }
 }
 ```
 
-3. Optionally register aliases in `apps/index.json` for scripts.
-4. Reinstall the pack in Settings → Packs.
+3. Reinstall the pack in Settings → Packs.
 
-`appId` is the macOS bundle id when present (e.g. `com.google.Chrome`, `com.todesktop.230313mzl4w4u92`). On Windows/Linux it is often the app name.
+`appId` is the macOS bundle id when present (e.g. `com.google.Chrome`, `com.todesktop.230313mzl4w4u92`). On Windows/Linux it is often the app name — use that same string as the filename.
 
 Example sources used here:
 

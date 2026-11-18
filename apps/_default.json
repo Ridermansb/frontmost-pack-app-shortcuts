@@ -3,7 +3,7 @@
   "title": "No shortcuts file for this app",
   "source": null,
   "notes": [
-    "Add apps/<Name>.json and an alias in apps/index.json.",
+    "Add apps/<appId>.json (filename = bundle id or app name).",
     "Then reinstall the pack in Frontmost Reactor → Settings → Packs."
   ],
   "shortcuts": []
