@@ -12,14 +12,26 @@
       "kind": "ui",
       "name": "Shortcuts",
       "match": {
-        "mode": "any",
-        "appId": null,
-        "appName": null
+        "mode": "per-app",
+        "appId": "com.google.Chrome",
+        "appName": "Google Chrome"
       },
       "url": {
         "from": "file",
-        "path": "ui/viewer.html",
-        "vars": true
+        "path": "apps/Chrome.json"
+      }
+    },
+    {
+      "kind": "ui",
+      "name": "Shortcuts",
+      "match": {
+        "mode": "per-app",
+        "appId": "com.todesktop.230313mzl4w4u92",
+        "appName": "Cursor"
+      },
+      "url": {
+        "from": "file",
+        "path": "apps/Cursor.json"
       }
     }
   ],
