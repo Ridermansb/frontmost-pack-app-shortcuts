@@ -1,0 +1,156 @@
+{
+  "app": "Google Chrome",
+  "title": "Chrome DevTools shortcuts",
+  "source": "https://developer.chrome.com/docs/devtools/shortcuts",
+  "notes": [
+    "Subset of DevTools shortcuts for a tip sheet — not the full reference.",
+    "Focus the page viewport before opening DevTools with these shortcuts."
+  ],
+  "sections": [
+    {
+      "name": "Open DevTools",
+      "shortcuts": [
+        {
+          "action": "Open last used panel",
+          "mac": "⌘⌥I",
+          "win": "F12 / Ctrl+Shift+I",
+          "linux": "F12 / Ctrl+Shift+I"
+        },
+        {
+          "action": "Open Console",
+          "mac": "⌘⌥J",
+          "win": "Ctrl+Shift+J",
+          "linux": "Ctrl+Shift+J"
+        },
+        {
+          "action": "Open Elements / Inspect",
+          "mac": "⌘⇧C / ⌘⌥C",
+          "win": "Ctrl+Shift+C",
+          "linux": "Ctrl+Shift+C"
+        }
+      ]
+    },
+    {
+      "name": "Global (most panels)",
+      "shortcuts": [
+        {
+          "action": "Settings",
+          "mac": "? / Fn+F1",
+          "win": "? / F1",
+          "linux": "? / F1"
+        },
+        {
+          "action": "Command Menu",
+          "mac": "⌘⇧P",
+          "win": "Ctrl+Shift+P",
+          "linux": "Ctrl+Shift+P"
+        },
+        {
+          "action": "Toggle Device Mode",
+          "mac": "⌘⇧M",
+          "win": "Ctrl+Shift+M",
+          "linux": "Ctrl+Shift+M"
+        },
+        {
+          "action": "Toggle Drawer",
+          "mac": "Esc",
+          "win": "Esc",
+          "linux": "Esc"
+        },
+        {
+          "action": "Hard reload",
+          "mac": "⌘⇧R",
+          "win": "Ctrl+Shift+R / Ctrl+F5",
+          "linux": "Ctrl+Shift+R / Ctrl+F5"
+        },
+        {
+          "action": "Search in panel",
+          "mac": "⌘F",
+          "win": "Ctrl+F",
+          "linux": "Ctrl+F"
+        },
+        {
+          "action": "Search across resources",
+          "mac": "⌘⌥F",
+          "win": "Ctrl+Shift+F",
+          "linux": "Ctrl+Shift+F"
+        },
+        {
+          "action": "Open file in Sources",
+          "mac": "⌘O / ⌘P",
+          "win": "Ctrl+O / Ctrl+P",
+          "linux": "Ctrl+O / Ctrl+P"
+        }
+      ]
+    },
+    {
+      "name": "Elements",
+      "shortcuts": [
+        {
+          "action": "Hide selected element",
+          "mac": "H",
+          "win": "H",
+          "linux": "H"
+        },
+        {
+          "action": "Edit as HTML",
+          "mac": "Fn+F2",
+          "win": "F2",
+          "linux": "F2"
+        },
+        {
+          "action": "Undo / Redo",
+          "mac": "⌘Z / ⌘⇧Z",
+          "win": "Ctrl+Z / Ctrl+Y",
+          "linux": "Ctrl+Z / Ctrl+Y"
+        }
+      ]
+    },
+    {
+      "name": "Sources / debug",
+      "shortcuts": [
+        {
+          "action": "Pause / resume",
+          "mac": "F8 / ⌘\\",
+          "win": "F8 / Ctrl+\\",
+          "linux": "F8 / Ctrl+\\"
+        },
+        {
+          "action": "Step over",
+          "mac": "F10",
+          "win": "F10",
+          "linux": "F10"
+        },
+        {
+          "action": "Step into",
+          "mac": "F11",
+          "win": "F11",
+          "linux": "F11"
+        },
+        {
+          "action": "Step out",
+          "mac": "⇧F11",
+          "win": "Shift+F11",
+          "linux": "Shift+F11"
+        }
+      ]
+    },
+    {
+      "name": "Console",
+      "shortcuts": [
+        {
+          "action": "Clear Console",
+          "mac": "⌘K / ⌥L",
+          "win": "Ctrl+L",
+          "linux": "Ctrl+L"
+        },
+        {
+          "action": "Execute",
+          "mac": "Return",
+          "win": "Enter",
+          "linux": "Enter"
+        }
+      ]
+    }
+  ]
+}

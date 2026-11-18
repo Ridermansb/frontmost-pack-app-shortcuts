@@ -1,0 +1,14 @@
+{
+  "description": "Map frontmost app id / name → shortcuts JSON under apps/. Edit this when you add a new app.",
+  "strategy": "app-id",
+  "fallback": "_default.json",
+  "aliases": {
+    "com.google.Chrome": "Chrome.json",
+    "com.google.Chrome.canary": "Chrome.json",
+    "Google Chrome": "Chrome.json",
+    "Chrome": "Chrome.json",
+    "com.todesktop.230313mzl4w4u92": "Cursor.json",
+    "Cursor": "Cursor.json",
+    "cursor": "Cursor.json"
+  }
+}

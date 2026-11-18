@@ -1,0 +1,22 @@
+{
+  "app": "Example App",
+  "title": "Example shortcuts tip sheet",
+  "source": "https://example.com/shortcuts",
+  "notes": [
+    "Copy this file to apps/YourApp.json and register it in index.json.",
+    "Use mac / win / linux keys; omit a platform if it does not apply."
+  ],
+  "sections": [
+    {
+      "name": "General",
+      "shortcuts": [
+        {
+          "action": "Command palette",
+          "mac": "⌘⇧P",
+          "win": "Ctrl+Shift+P",
+          "linux": "Ctrl+Shift+P"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "app": "Cursor",
+  "title": "Cursor keyboard shortcuts",
+  "source": "https://cursor.com/docs/reference/keyboard-shortcuts",
+  "notes": [
+    "Subset of Cursor shortcuts for a tip sheet — remap anything in Keyboard Shortcuts settings.",
+    "See also VS Code keybindings as the baseline: https://code.visualstudio.com/docs/getstarted/keybindings"
+  ],
+  "sections": [
+    {
+      "name": "General",
+      "shortcuts": [
+        {
+          "action": "Command palette",
+          "mac": "⌘⇧P",
+          "win": "Ctrl+Shift+P",
+          "linux": "Ctrl+Shift+P"
+        },
+        {
+          "action": "Toggle Sidepanel",
+          "mac": "⌘I / ⌘L",
+          "win": "Ctrl+I / Ctrl+L",
+          "linux": "Ctrl+I / Ctrl+L"
+        },
+        {
+          "action": "Toggle Agent layout",
+          "mac": "⌘E",
+          "win": "Ctrl+E",
+          "linux": "Ctrl+E"
+        },
+        {
+          "action": "Mode Menu",
+          "mac": "⌘.",
+          "win": "Ctrl+.",
+          "linux": "Ctrl+."
+        },
+        {
+          "action": "Loop AI models",
+          "mac": "⌘/",
+          "win": "Ctrl+/",
+          "linux": "Ctrl+/"
+        },
+        {
+          "action": "Cursor settings",
+          "mac": "⌘⇧J",
+          "win": "Ctrl+Shift+J",
+          "linux": "Ctrl+Shift+J"
+        },
+        {
+          "action": "General settings",
+          "mac": "⌘,",
+          "win": "Ctrl+,",
+          "linux": "Ctrl+,"
+        },
+        {
+          "action": "Toggle Voice Mode",
+          "mac": "⌘⇧Space",
+          "win": "Ctrl+Shift+Space",
+          "linux": "Ctrl+Shift+Space"
+        }
+      ]
+    },
+    {
+      "name": "Chat",
+      "shortcuts": [
+        {
+          "action": "Queue message",
+          "mac": "Return",
+          "win": "Enter",
+          "linux": "Enter"
+        },
+        {
+          "action": "Force send message",
+          "mac": "⌘Return",
+          "win": "Ctrl+Enter",
+          "linux": "Ctrl+Enter"
+        },
+        {
+          "action": "Cancel generation",
+          "mac": "⌘⇧⌫",
+          "win": "Ctrl+Shift+Backspace",
+          "linux": "Ctrl+Shift+Backspace"
+        },
+        {
+          "action": "Add selection as context",
+          "mac": "⌘⇧L",
+          "win": "Ctrl+Shift+L",
+          "linux": "Ctrl+Shift+L"
+        },
+        {
+          "action": "New chat",
+          "mac": "⌘N / ⌘R",
+          "win": "Ctrl+N / Ctrl+R",
+          "linux": "Ctrl+N / Ctrl+R"
+        },
+        {
+          "action": "New chat tab",
+          "mac": "⌘T",
+          "win": "Ctrl+T",
+          "linux": "Ctrl+T"
+        },
+        {
+          "action": "Previous / next chat",
+          "mac": "⌘[ / ⌘]",
+          "win": "Ctrl+[ / Ctrl+]",
+          "linux": "Ctrl+[ / Ctrl+]"
+        },
+        {
+          "action": "Close chat",
+          "mac": "⌘W",
+          "win": "Ctrl+W",
+          "linux": "Ctrl+W"
+        },
+        {
+          "action": "Accept / reject all changes",
+          "mac": "⌘Return / ⌘⇧⌫",
+          "win": "Ctrl+Enter / Ctrl+Shift+Backspace",
+          "linux": "Ctrl+Enter / Ctrl+Shift+Backspace"
+        }
+      ]
+    },
+    {
+      "name": "Inline Edit",
+      "shortcuts": [
+        {
+          "action": "Open Inline Edit",
+          "mac": "⌘K",
+          "win": "Ctrl+K",
+          "linux": "Ctrl+K"
+        },
+        {
+          "action": "Toggle input focus",
+          "mac": "⌘⇧K",
+          "win": "Ctrl+Shift+K",
+          "linux": "Ctrl+Shift+K"
+        },
+        {
+          "action": "Submit",
+          "mac": "Return",
+          "win": "Enter",
+          "linux": "Enter"
+        },
+        {
+          "action": "Ask quick question",
+          "mac": "⌥Return",
+          "win": "Alt+Enter",
+          "linux": "Alt+Enter"
+        }
+      ]
+    },
+    {
+      "name": "Tab / Terminal",
+      "shortcuts": [
+        {
+          "action": "Accept suggestion",
+          "mac": "Tab",
+          "win": "Tab",
+          "linux": "Tab"
+        },
+        {
+          "action": "Accept next word",
+          "mac": "⌘→",
+          "win": "Ctrl+→",
+          "linux": "Ctrl+→"
+        },
+        {
+          "action": "Terminal prompt bar",
+          "mac": "⌘K",
+          "win": "Ctrl+K",
+          "linux": "Ctrl+K"
+        },
+        {
+          "action": "Run generated command",
+          "mac": "⌘Return",
+          "win": "Ctrl+Enter",
+          "linux": "Ctrl+Enter"
+        }
+      ]
+    }
+  ]
+}

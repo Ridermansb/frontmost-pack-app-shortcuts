@@ -1,0 +1,10 @@
+{
+  "app": "Unknown",
+  "title": "No shortcuts file for this app",
+  "source": null,
+  "notes": [
+    "Add apps/<Name>.json and an alias in apps/index.json.",
+    "Then reinstall the pack in Frontmost Reactor → Settings → Packs."
+  ],
+  "shortcuts": []
+}

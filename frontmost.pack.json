@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "app-shortcuts",
+  "name": "App shortcuts tip sheet",
+  "description": "Shows a keyboard-shortcuts cheat sheet JSON for the frontmost app (Chrome + Cursor included as examples).",
+  "author": "Frontmost Reactor",
+  "license": "MIT",
+  "homepage": "https://github.com/Ridermansb/frontmost-pack-app-shortcuts",
+
+  "reactions": [
+    {
+      "kind": "ui",
+      "name": "Shortcuts",
+      "match": {
+        "mode": "any",
+        "appId": null,
+        "appName": null
+      },
+      "url": {
+        "from": "file",
+        "path": "ui/viewer.html",
+        "vars": true
+      }
+    }
+  ],
+
+  "globals": [
+    {
+      "kind": "script",
+      "name": "Resolve shortcuts file",
+      "script": {
+        "path": "scripts/resolve-shortcuts.sh"
+      }
+    }
+  ],
+
+  "assets": {
+    "shortcutsDir": "apps",
+    "naming": {
+      "strategy": "app-id",
+      "extension": ".json",
+      "fallback": "apps/_default.json",
+      "index": "apps/index.json"
+    }
+  },
+
+  "requires": {
+    "appMinVersion": null,
+    "platforms": ["darwin", "win32", "linux"]
+  }
+}
